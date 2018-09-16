@@ -25,12 +25,15 @@ There are many flavors of time series data. Some can be windowed in the stream, 
 
 ### Clone the repo
 
-    git clone https://github.com/killrweather/killrweather.git
+    git clone https://github.com/mirajgodha/killrweather.git
     cd killrweather
 
 
 ### Build the code 
 If this is your first time running SBT, you will be downloading the internet.
+For installing sbt on windows follow the link: https://www.scala-sbt.org/1.x/docs/Installing-sbt-on-Windows.html
+For installing sbt on linux follow the link: https://www.scala-sbt.org/1.x/docs/Installing-sbt-on-Linux.html
+For installing sbt on mac follow the link: https://www.scala-sbt.org/1.x/docs/Installing-sbt-on-Mac.html
 
     cd killrweather
     sbt compile
